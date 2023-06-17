@@ -1,7 +1,7 @@
 class BombaCombustivel:
     __tipoCombustivel = ""
-    __valorLitro = 5.21
-    __quantidadeCombustivel = 1
+    __valorLitro = 5.0
+    __quantidadeCombustivel = 5000
 #----------{Property and Init}-------------
     #Valor---------------
     @property
@@ -44,7 +44,7 @@ class BombaCombustivel:
         self.valorLitro((self.__valorLitro * self.__quantidadeCombustivel))
         print(self.__valorLitro)
 
-PorValor = BombaCombustivel("Gasolina",10.42,1)
-PorLitro = BombaCombustivel("Gasolina",5.21,5)
-print(PorValor.quantidadeCombustivel)
-print(PorLitro.valorLitro)
+Alcool = BombaCombustivel("Alcool",4,5000)
+Gasolina = BombaCombustivel("Gasolina",5.5,10000)
+print(Alcool.quantidadeCombustivel)
+print(Gasolina.quantidadeCombustivel)
