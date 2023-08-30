@@ -27,6 +27,7 @@ blog.adicionar_postagem(postagem5)
 blog.publicar_postagem(postagem3)
 blog.apagar_postagem(postagem4)
 
+
 print("\n\n\n\n\nPostagens Publicadas: ")
 for postagem in blog.listar_postagens_publicadas():
     print(postagem,"\n")
